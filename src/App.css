@@ -2,10 +2,10 @@
     text-align: center;
 }
 
-:root {
-    --dark-content: #666666;
-    --solid-heading: #42446E;
-}
+/*:root {*/
+/*    --dark-content: #666666;*/
+/*    --solid-heading: #42446E;*/
+/*}*/
 
 #root {
     display: flex;
@@ -18,14 +18,7 @@
     width: 100vw;
 }
 
-.container {
-    display: block;
-    width: 100vw;
-}
-
 .desktop-light-mode .container {
-    box-shadow: 0.1rem 0.1rem 6.3rem 0rem rgba(0, 0, 0, 0.2);
-    border-radius: 1.3rem;
     background: #FFFFFF;
     position: relative;
     display: flex;
@@ -37,71 +30,13 @@
 
 .desktop-light-mode {
     background: #FFFFFF;
-    /*display: flex;*/
     padding: 2.6vh 14vw 3.7vh 11.8vw;
     width: 100vw;
     max-width: 100vw;
     box-sizing: border-box;
 }
 
-.desktop-light-mode .akar-iconslink-chain {
-    margin: 0.3% 0.8% 0.3% 0;
-    display: flex;
-    height: 1.3%;
-    box-sizing: border-box;
-}
-
-.group-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-}
-
-.header-btn-cont {
-    display: flex;
-    flex-direction: row;
-}
-
-.group-2 {
-    margin: 0.1% 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: fit-content;
-    box-sizing: border-box;
-    margin-left: clamp(2vw, 5vw + 2%, 19.1vw);
-    margin-right: clamp(0.5vw, 5vw + 2%, 3.2vw);
-    flex-wrap: wrap;
-}
-
-
-.messenger-btns-cont {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    column-gap: 1.17vw;
-    margin-left: auto;
-
-}
-
-.mess-btn-cont {
-    height: 1.3rem;
-    width: 1.3rem;
-}
-
-.header-btn {
-    margin-right: 0.8vw;
-    overflow-wrap: break-word;
-    font-family: 'DM Sans';
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 1.3;
-    color: #666666;
-    background: none;
-    border: none;
-    height: fit-content;
-    text-align: left;
+p {
+    margin: 0;
 }
 

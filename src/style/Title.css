@@ -1,0 +1,26 @@
+.normal-title {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 0.813;
+    color: #666666;
+    line-height: 1.5;
+}
+
+
+.bold-title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 0.542;
+    color: #42446E;
+    line-height: 1.5;
+}
+
+.title-group {
+    display: inline-block;
+    overflow-wrap: break-word;
+
+    font-family: 'Poppins';
+    margin-top: 21.75rem;
+    display: grid;
+    gap: 3.6rem;
+}

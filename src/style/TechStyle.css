@@ -1,0 +1,18 @@
+.tech-title-group {
+    display: grid;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 7.5rem));
+    justify-content: center;
+    width: 100%;
+}
+
+.tech-logo-cont {
+    width: 7.5rem;
+    height: 7.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #333;
+}
