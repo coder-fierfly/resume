@@ -7,7 +7,7 @@ function Title({ boldText, normalText }) {
     return (
         <div className="title-group">
             <div className="bold-title">
-                {boldText}
+                <p>  {boldText}</p>
             </div>
             <div className="normal-title">
                 {normalText}

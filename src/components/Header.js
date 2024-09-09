@@ -11,7 +11,7 @@ function Header() {
     return (
         <div className="header-group">
             <div className="logo-cont">
-            <img className="" src={logo} alt="Logo"/>
+                <img className="" src={logo} alt="Logo"/>
             </div>
             <div className="nav-group">
                 <button className="header-btn">

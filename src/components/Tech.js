@@ -15,45 +15,28 @@ import vs from "../svg/vscode.svg"
 import github from "../svg/github-fill.svg"
 
 function Tech() {
+
+    const techLogos = [
+        {src: html, alt: "HTML"},
+        {src: css, alt: "CSS"},
+        {src: js, alt: "JavaScript"},
+        {src: react, alt: "React"},
+        {src: vector, alt: "Vector"},
+        {src: bootstrap, alt: "Bootstrap"},
+        {src: tail, alt: "Tailwind"},
+        {src: sass, alt: "Sass"},
+        {src: git, alt: "Git"},
+        {src: green, alt: "GreenSock"},
+        {src: vs, alt: "VS Code"},
+        {src: github, alt: "GitHub"}
+    ];
     return (
         <div className="tech-title-group">
-            <div className="tech-logo-cont">
-                <img className="" src={html} alt="HTML"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={css} alt="css"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={js} alt="js"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={react} alt="react"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={vector} alt="vector"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={bootstrap} alt="bootstrap"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={tail} alt="tail"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={sass} alt="sass"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={git} alt="git"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={green} alt="green"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={vs} alt="vs"/>
-            </div>
-            <div className="tech-logo-cont">
-                <img className="" src={github} alt="github"/>
-            </div>
-
+            {techLogos.map((logo, index) => (
+                <div className="tech-logo-cont" key={index}>
+                    <img src={logo.src} alt={logo.alt}/>
+                </div>
+            ))}
         </div>
     )
 }

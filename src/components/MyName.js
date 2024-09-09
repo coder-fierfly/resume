@@ -3,7 +3,7 @@ import "../style/MyNameStyle.css"
 
 function MyName() {
     return (
-        <div className="component-1">
+        <div className="per-wrap">
             <div className="text-wrap">
                 <p className="p-wrap">
                     <span>Hi 👋,<br/></span>

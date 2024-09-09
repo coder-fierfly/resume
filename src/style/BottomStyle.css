@@ -1,0 +1,93 @@
+.bottom-group {
+    width: 100%;
+    border-bottom: 2px solid rgba(102, 102, 102, 0.3);
+}
+
+.bottom-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 2.6rem;
+}
+
+.logo-cont {
+    grid-column: 1 / 2;
+    justify-self: start;
+}
+
+.contact {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    justify-items: center;
+}
+
+.mess-btn-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messenger-btns-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+}
+
+.contact p {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .bottom-contact {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        grid-column: 1 / 2;
+        display: table-row;
+    }
+}
+
+.botton-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 4.3rem;
+}
+
+.pav-text {
+    text-decoration-color: rgba(21, 20, 57, 0.4);
+    font-family: 'Poppins', serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 26px;
+    justify-self: end;
+}
+
+.botton-nav .nav-group {
+    width: 100%;
+    padding-bottom: 0;
+    grid-column: span 1;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #7267D3 0%, #E50FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.simple-text {
+    color: rgba(21, 20, 57);
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+}
